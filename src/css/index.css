@@ -80,6 +80,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 50px;
 }
 
 .imagem_produtos {
@@ -91,13 +92,15 @@ header{
 }
 
 .estilizacao-produtos{
-  border: none;
   background-color: var(--cor-fundo);
   font-size: 50px;
   font-weight: 500;
   border-radius: 5px;
-  height: 100px;
-  width: 600px;
+  height: 70px;
+  font-family: NewsReaders;
+  width: 420px;
+  border: 1px var(--cor-texto) solid;
+  border-radius: 5px;
 }
 
 .estilizacao-produtos:hover {
@@ -105,7 +108,8 @@ header{
   color: var(--cor-fundo);
   font-size: 50px;
   border-radius: 5px;
-  transition: background-color,color 0.5s;
+  transition: color,background-color 0.6s;
+  border: none;
 }
 
 .todos_produtos {
@@ -113,4 +117,20 @@ header{
   align-items: center;
   justify-content: center;
   margin-top: 80px;
+}
+
+.video_apresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo_video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--fonte-texto);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 50px;
 }
