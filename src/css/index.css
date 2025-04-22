@@ -29,4 +29,37 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.menu-navegacao{
+  display: grid;
+  align-items: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  font-family: NewsReader;
+  font-size: 20px;
+  padding-bottom: 15px;
+  grid-template-columns: 120px 120px 120px 120px;
+  padding-top: 15px;
+}
+
+.apresentacao {
+  font-family: Imperial Script;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  color: var(--cor-fundo);
+  background-color: var(--cor-principal);
 }
