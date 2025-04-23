@@ -14,45 +14,48 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
         rel="stylesheet">
+    <link href="/src/css/pagina_inicial.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="icon" href="/src/assets/imgs/logo.jpg">
 </head>
 
 <body>
-
     <header>
         <div class="apresentacao">
-            <img class="logo" alt="Logo Vinheria" src="/src/assets/imgs/logo.png">
+            <img class="logo" alt="Logo Vinheria" src="/src/assets/imgs/logo.jpg">
             <p>Vinheria Agnello</p>
         </div>
         <nav class="menu-navegacao">
-            <a href="index.html">Home</a>
-            <a href="/src/pages/produtos.html">Produtos</a>
-            <a href="/src/pages/historia.html">Sobre Nós</a>
-            <a href="#fale_conosco" class="botoes-navegacao">Fale Conosco</a>
+            <a class="menu-item" href="index.html">Home</a>
+            <a class="menu-item" href="/src/pages/produtos.html">Produtos</a>
+            <a class="menu-item" href="/src/pages/historia.html">Sobre Nós</a>
+            <a class="menu-item" href="#fale_conosco" class="botoes-navegacao">Fale Conosco</a>
         </nav>
     </header>
-
     <img class="vinho" alt="exemplo_vinho" src="/src/assets/imgs/imagem_fundo.png">
-
     <div class="apresentacao_produtos">
         <h2 class="vinhos_recomendados">Vinhos Recomendados</h2>
         <div class="imagem_produtos">
             <img id="toroloco" alt="Vinho Toro Loco" src="/src/assets/imgs/Vinho_Toro_Loco.jpg">
             <img alt="Vinho Santa Helena" src="/src/assets/imgs/Vinho_Santa_Helena.jpg">
             <img alt="Vinho Miolo" src="/src/assets/imgs/Vinho_Miolo.jpg">
-            <h3><a href="/src/pages/detalhesProduto.html">Vinho Toro Loco</a></h4>
-                <h3><a href="/src/pages/detalhesProduto.html">Vinho Santa Helena</a></h4>
-                    <h3><a href="/src/pages/detalhesProduto.html">Vinho Miolo</a></h4>
+            <h3><a href="/src/pages/detalhesProduto.html">Vinho Toro Loco</a></h3>
+            <h3><a href="/src/pages/detalhesProduto.html">Vinho Santa Helena</a></h3>
+            <h3><a href="/src/pages/detalhesProduto.html">Vinho Miolo</a></h3>
+            <img id="toroloco" alt="Vinho Toro Loco" src="/src/assets/imgs/vinho_pedra_cancela.jpg">
+            <img alt="Vinho Santa Helena" src="/src/assets/imgs/vinho_sagrado.jpg">
+            <img alt="Vinho Miolo" src="/src/assets/imgs/vinho_esteva.jpg">
+            <h3><a href="/src/pages/detalhesProduto.html">Vinho Pedra Cancela</a></h3>
+            <h3><a href="/src/pages/detalhesProduto.html">Vinho Sagrado</a></h3>
+            <h3><a href="/src/pages/detalhesProduto.html">Vinho Casa Ferreirinha Esteva</a></h3>
         </div>
         <div class="todos_produtos">
             <button class="estilizacao-produtos"><a href="/src/pages/produtos.html">Todos os Produtos</a></button>
         </div>
     </div>
-
-
     <h2 class="titulo_video">Video para Iniciantes</h2>
     <div class="video_apresentacao">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ac559iPwbEs?si=uxW6DcoNEktRgATb"
@@ -60,6 +63,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+
     <footer id="fale_conosco">
 
     </footer>

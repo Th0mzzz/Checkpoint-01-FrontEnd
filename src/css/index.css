@@ -41,96 +41,37 @@ img {
   display: grid;
   align-items: center;
   justify-content: space-evenly;
-  column-gap: 10px;
   font-family: NewsReader;
   font-size: 20px;
-  padding-bottom: 15px;
-  grid-template-columns: 120px 120px 120px 120px;
-  padding-top: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
 }
 
+.menu-item{
+  padding: 10px;
+  background-color: var(--cor-principal);
+  color: var(--cor-fundo);
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+  }
+}
 .apresentacao {
   font-family: Imperial Script;
   font-size: 70px;
   display: flex;
   align-items: center;
   gap: 30px;
+  padding: 1rem;
 }
 
 header{
-  position: sticky;
+  position: fixed;
   top: 0;
-  color: var(--cor-fundo);
+  color: var(--cor-fundo-2);
   background-color: var(--cor-principal);
-}
-
-.vinho {
+  z-index: 1000;
   width: 100%;
-  height: 800px;
-  object-fit: cover;
 }
 
-.apresentacao_produtos {
-  font-family: var(--fonte-texto);
-  color: var(--cor-texto);
-  margin-top: 20px;
-}
-
-.vinhos_recomendados {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-}
-
-.imagem_produtos {
-  padding-top: 30px;
-  display: grid;
-  align-items: center;
-  justify-content: space-evenly;
-  grid-template-columns: 200px 200px 200px;
-}
-
-.estilizacao-produtos{
-  background-color: var(--cor-fundo);
-  font-size: 50px;
-  font-weight: 500;
-  border-radius: 5px;
-  height: 70px;
-  font-family: NewsReaders;
-  width: 420px;
-  border: 1px var(--cor-texto) solid;
-  border-radius: 5px;
-}
-
-.estilizacao-produtos:hover {
-  background-color: var(--cor-principal);
-  color: var(--cor-fundo);
-  font-size: 50px;
-  border-radius: 5px;
-  transition: color,background-color 0.6s;
-  border: none;
-}
-
-.todos_produtos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 80px;
-}
-
-.video_apresentacao {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.titulo_video{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--fonte-texto);
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 50px;
-}

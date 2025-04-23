@@ -1,0 +1,71 @@
+.vinho {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 13rem;
+  }
+  
+  .apresentacao_produtos {
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto);
+    margin-top: 20px;
+  }
+  
+  .vinhos_recomendados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+  
+  .imagem_produtos {
+    padding-top: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 200px 200px 200px;
+  }
+  
+  .estilizacao-produtos{
+    background-color: var(--cor-fundo);
+    font-size: 50px;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 70px;
+    font-family: NewsReaders;
+    width: 420px;
+    border: 1px var(--cor-texto) solid;
+    border-radius: 5px;
+  }
+  
+  .estilizacao-produtos:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    font-size: 50px;
+    border-radius: 5px;
+    transition: color,background-color 0.6s;
+    border: none;
+  }
+  
+  .todos_produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  .video_apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titulo_video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-texto);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
