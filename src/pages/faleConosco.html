@@ -1,47 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FaleC Conosco</title>
+    <title>Contatos</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
+    <footer>
+        <h2>Entre em Contato</h2>
+        <form action="">
+            
+            <div class="footer-container">
 
-<h2>Formulário de Contato</h2>
-    <form>
-        <fieldset>
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome"/>
-            
-            <label for="empresa">Empresa:</label>
-            <input type="text" name="empresa"/>
-            
-            <label for="email">E-mail:</label>
-            <input type="text" name="email"/>
-            
-            
-            <label for="telefone">Telefone:</label>
-            <input type="text" name="telefone"/>
-            <br>
-            <h3>Deixe sua mensagem:</h3>
-            <div>
-                <label for="assunto">Assunto:</label>
-                <input type="text" name="assunto"/>
-                <br>
-                <textarea name="mensagem" id="mensagem"></textarea>
+                <div class="footer-bloco">
+                    <div class="footer-inputs">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome"/>
+                    </div>
+
+                    <div class="footer-inputs">
+                        <label for="empresa">Empresa:</label>
+                        <input type="text" name="empresa"/>
+                    </div>
+
+                    <div class="footer-inputs">
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email"/>
+                    </div>
+
+                    <div class="footer-inputs">
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" name="telefone"/>
+                    </div>
+                </div>
+
+                <div class="footer-bloco"> 
+                    <div class="footer-inputs">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" name="assunto"/>
+                    </div>
+
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </div>
+                
             </div>
-            
-
-            <br>
-            <button type="submit"> 
-                Enviar
-            </button>
-            <button type="reset"> 
-                Limpar
-            </button>
-
-        </fieldset>
-    </form>
-
+        </form>
+    </footer>
 </body>
 </html>
