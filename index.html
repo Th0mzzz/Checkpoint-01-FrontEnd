@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
     <header>
@@ -28,8 +32,66 @@
     </header>
 
 
-<footer id="fale_conosco">
+    <footer id="fale_conosco">
+        <div class="container">
+            <div class="right">
+                <p class="teste">Entre em Contato</p>
+            </div>
+            <div class="left">
+                <img src="src/assets/imgs/logo_2.jpg" alt="" class="logo">
+            </div>
+        </div>
 
-</footer>
+        <form action="">
+
+            <div class="footer-container">
+                <div class="footer-bloco">
+                    <div class="footer-inputs">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" />
+                    </div>
+
+                    <div class="footer-inputs">
+                        <label for="empresa">Empresa:</label>
+                        <input type="text" name="empresa" />
+                    </div>
+
+                    <div class="footer-inputs">
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" />
+                    </div>
+
+                    <div class="footer-inputs">
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" name="telefone" />
+                    </div>
+                </div>
+
+                <div class="footer-bloco">
+                    <div class="footer-inputs">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" name="assunto" />
+                    </div>
+
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                    <div>
+
+                        <button type="submit">
+                            Enviar
+                        </button>
+                        <button type="reset">
+                            Limpar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="icon-container">
+            <img src="src/assets/imgs/icon_facebook.png" alt="" class="icon">
+            <img src="src/assets/imgs/icon_instragram.png" alt="" class="icon">
+            <img src="src/assets/imgs/icon_twitter.png" alt="" class="icon">
+        </div>
+    </footer>
 </body>
+
 </html>
