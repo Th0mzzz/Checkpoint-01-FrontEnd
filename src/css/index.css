@@ -35,6 +35,8 @@ footer{
   width: 100%;
   background-color: var(--cor-principal);
   color: var(--cor-fundo-2);
+  /*border: 3px solid;
+  border-color: var(--cor-secundaria);*/
 }
 
 .footer-container {
