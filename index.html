@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,26 +12,139 @@
     <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+        rel="stylesheet">
 </head>
-<body>
 
+
+<body>
     <header>
         <div class="apresentacao">
-            <img class="logo" alt="Logo Vinheria" src="/src/assets/imgs/logo.png">
+            <img class="logo" alt="Logo Vinheria" src="/src/assets/imgs/logo.jpg">
             <p>Vinheria Agnello</p>
         </div>
         <nav class="menu-navegacao">
-            <a href="index.html">Home</a>
-            <a href="/src/pages/produtos.html">Produtos</a>
-            <a href="/src/pages/historia.html">Sobre Nós</a>
-            <a href="#fale_conosco">Fale Conosco</a>
+            <a class="menu-item" href="index.html">Home</a>
+            <a class="menu-item" href="/src/pages/produtos.html">Produtos</a>
+            <a class="menu-item" href="/src/pages/historia.html">Sobre Nós</a>
+            <a class="menu-item" href="#fale_conosco" class="botoes-navegacao">Fale Conosco</a>
         </nav>
     </header>
+    <img class="vinho" alt="exemplo_vinho" src="/src/assets/imgs/imagem_fundo.png">
+    <div class="apresentacao_produtos">
+        <h2 class="vinhos_recomendados">Vinhos Recomendados</h2>
+        <div class="grid_produtos">
+        <div class="teste">
+            <img class="imagem_mostruario" alt="Vinho Toro Loco" src="/src/assets/imgs/Vinho_Toro_Loco.jpg">
+            <h3>Vinho Toro Loco</h3>
+            <p>Toro Loco – Vinho espanhol da região de La Mancha, acessível e versátil. Sabores frutados (ameixa, cereja) e taninos suaves...</p>
+            <button class="ver_mais"><a href="/src/pages/detalhesProduto.html">Ver Mais</a></button>
+        </div>
+        <div class="teste">
+            <img class="imagem_mostruario"  alt="Vinho Santa Helena" src="/src/assets/imgs/Vinho_Santa_Helena.jpg">
+            <h3><a>Vinho Santa Helena</a></h3>
+            <p>Vinho Santa Helena – Produzido no Vale do São Francisco (Brasil), destaca-se pela qualidade e preço acessível. Com aromas frutados e frescos...</p>
+            <button class="ver_mais"><a href="/src/pages/detalhesProduto.html">Ver Mais</a></button>
+        </div>
+        <div class="teste">
+            <img alt="Vinho Miolo" src="/src/assets/imgs/Vinho_Miolo.jpg">
+            <h3><a>Vinho Miolo</a></h3>
+            <p>Vinho Miolo - Referência entre os vinhos brasileiros, produzido nas principais regiões vinícolas do país. Oferece rótulos premiados...</p>
+            <button class="ver_mais"><a href="/src/pages/detalhesProduto.html">Ver Mais</a></button>
+        </div>
+        <div class="teste">
+            <img alt="Vinho Pedra Cancela" src="/src/assets/imgs/vinho_pedra_cancela.jpg">
+            <h3><a href="/src/pages/detalhesProduto.html">Vinho Pedra Cancela</a></h3>
+            <p>Vinho Pedra Cancela – Produzido na Serra da Mantiqueira (MG), destaca-se por vinhos de altitude com frescor e elegância. Oferece rótulos como Pinot Noir...</p>
+            <button class="ver_mais"><a href="/src/pages/detalhesProduto.html">Ver Mais</a></button>
+        </div>
+        <div class="teste">
+            <img alt="Vinho Sagrado" src="/src/assets/imgs/vinho_sagrado.jpg">
+            <h3><a>Vinho Sagrado</a></h3>
+            <p>Vinho Sagrado – Produzido no Vale do São Francisco, destaca-se por vinhos tropicais intensos e frutados, com taninos suaves e boa estrutura...</p>
+            <button class="ver_mais"><a href="/src/pages/detalhesProduto.html">Ver Mais</a></button>
+        </div>
+        <div class="teste">
+            <img alt="Vinho Esteva" src="/src/assets/imgs/vinho_esteva.jpg">
+            <h3><a href="/src/pages/detalhesProduto.html">Vinho Casa Ferreirinha Esteva</a></h3>
+            <p>Vinho Casa Ferreirinha Esteva – Produzido no Douro (Portugal), este vinho reflete a tradição e qualidade da região. Com um blend...</p>
+            <button class="ver_mais"><a href="/src/pages/detalhesProduto.html">Ver Mais</a></button>
+        </div>  
+        </div>
+        <div class="todos_produtos">
+            <button class="estilizacao-produtos"><a href="/src/pages/produtos.html">Todos os Produtos</a></button>
+        </div>
+    </div>
+    <h2 class="titulo_video">Video para Iniciantes</h2>
+    <div class="video_apresentacao">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ac559iPwbEs?si=uxW6DcoNEktRgATb"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
+    <footer id="fale_conosco">
+        <div class="container">
+            <div class="right">
+                <p class="teste">Entre em Contato</p>
+            </div>
+            <div class="left">
+                <img src="src/assets/imgs/logo_2.jpg" alt="" class="logo">
+            </div>
+        </div>
 
-<footer id="fale_conosco">
+        <form action="">
 
-</footer>
+            <div class="footer-container">
+                <div class="footer-bloco">
+                    <div class="footer-inputs">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" />
+                    </div>
+
+                    <div class="footer-inputs">
+                        <label for="empresa">Empresa:</label>
+                        <input type="text" name="empresa" />
+                    </div>
+
+                    <div class="footer-inputs">
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" />
+                    </div>
+
+                    <div class="footer-inputs">
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" name="telefone" />
+                    </div>
+                </div>
+
+                <div class="footer-bloco">
+                    <div class="footer-inputs">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" name="assunto" />
+                    </div>
+
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                    <div>
+
+                        <button type="submit">
+                            Enviar
+                        </button>
+                        <button type="reset">
+                            Limpar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="icon-container">
+            <img src="src/assets/imgs/icon_facebook.png" alt="" class="icon">
+            <img src="src/assets/imgs/icon_instragram.png" alt="" class="icon">
+            <img src="src/assets/imgs/icon_twitter.png" alt="" class="icon">
+        </div>
+    </footer>
 </body>
+
+
 </html>
