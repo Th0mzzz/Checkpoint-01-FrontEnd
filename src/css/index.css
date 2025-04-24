@@ -72,6 +72,7 @@ header{
   width: 100%;
   color: var(--cor-fundo-2);
   background-color: var(--cor-principal);
+  z-index: 1000;
 }
 footer{
   width: 100%;
