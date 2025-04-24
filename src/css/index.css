@@ -74,6 +74,10 @@ header{
   background-color: var(--cor-principal);
   z-index: 1000;
 }
+
+main{
+  margin-top: 200px;
+}
 footer{
   width: 100%;
   background-color: var(--cor-principal);
