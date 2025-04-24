@@ -106,12 +106,14 @@ footer{
 }
 
 .forms-button {
-  background-color: var(--cor-fundo-2);
-  color: var(--cor-texto);
+  background-color: var(--cor-principal);
+  color: var(--cor-fundo-2);
+  font-family: var(--fonte-texto-2);
+  margin-right: 15px;
 }
 
 .forms-button:hover {
-  background-color: var(--cor-principal);
+  background-color: var(--cor-secundaria);
   color: var(--cor-fundo-2);
   transition: all 0.3s ease-in-out;
 }

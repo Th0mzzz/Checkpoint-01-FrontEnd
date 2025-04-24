@@ -30,12 +30,12 @@
 
 .estilizacao_produtos {
   background-color: var(--cor-fundo);
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
   border-radius: 5px;
-  height: 70px;
+  height: 60px;
   font-family: var(--fonte-texto-2);
-  width: 500px;
+  width: 400px;
   border: 1px var(--cor-texto) solid;
   border-radius: 5px;
 }
@@ -43,17 +43,14 @@
 .estilizacao_produtos:hover {
   background-color: var(--cor-principal);
   color: var(--cor-fundo);
-  font-size: 50px;
-  border-radius: 5px;
   transition: color, background-color 0.6s;
-  border: none;
 }
 
 .todos_produtos {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin: 35px;
 }
 
 .video_apresentacao {
@@ -61,23 +58,26 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 30px;
+  margin: 20px;
 }
 
 .descritivo_video {
   font-family: var(--fonte-texto);
   font-size: 20px;
   font-weight: 500;
-  width: 300px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 25px;
+  & h2 {
+    padding-bottom: 15px;
+  }
 }
 
 .titulo_video {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--fonte-texto);
-  margin-top: 70px;
-  margin-bottom: 70px;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .card_produtos {
