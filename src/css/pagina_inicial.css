@@ -18,12 +18,13 @@
     font-size: 50px;
   }
   
-  .imagem_produtos {
+  .grid_produtos {
     padding-top: 30px;
     display: grid;
     align-items: center;
     justify-content: space-evenly;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: repeat(3,350px);
+    gap: 1rem;
   }
   
   .estilizacao-produtos{
@@ -69,3 +70,43 @@
     margin-bottom: 30px;
     font-size: 50px;
   }
+
+  .teste {
+    background-color: var(--cor-fundo-2);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    & p{
+      padding: 25px;
+    }
+    & h3 {
+      margin-top: 1rem;
+    }
+    & img {
+      width: 100%;
+      object-fit: contain;
+      height: 200px;
+    }
+  }
+
+  .ver_mais {
+    font-family: var(--fonte-texto-2);
+    font-size: 20px;
+    width: 90px;
+    height: 65px;
+    background-color: var(--cor-fundo-2);
+    border: none;
+    margin: auto;
+  }
+
+  .ver_mais:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo-2);
+    font-family: var(--fonte-texto-2);
+    transition: all 0.3s ease-in-out;
+  }
+
