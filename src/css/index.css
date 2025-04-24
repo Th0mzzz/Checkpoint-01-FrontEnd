@@ -41,27 +41,37 @@ img {
   display: grid;
   align-items: center;
   justify-content: space-evenly;
-  column-gap: 10px;
   font-family: NewsReader;
   font-size: 20px;
-  padding-bottom: 15px;
-  grid-template-columns: 120px 120px 120px 120px;
-  padding-top: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
 }
 
+.menu-item{
+  padding: 10px;
+  background-color: var(--cor-principal);
+  color: var(--cor-fundo);
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+  }
+}
 .apresentacao {
   font-family: Imperial Script;
   font-size: 70px;
   display: flex;
   align-items: center;
   gap: 30px;
+  padding: 1rem;
 }
 
 header{
-  position: sticky;
+  position: fixed;
   top: 0;
-  color: var(--cor-fundo);
+  color: var(--cor-fundo-2);
   background-color: var(--cor-principal);
+<<<<<<< HEAD
 }
 footer{
   width: 100%;
@@ -157,3 +167,9 @@ footer .container{
   justify-content: center;
   align-items: flex-start;
 }
+=======
+  z-index: 1000;
+  width: 100%;
+}
+
+>>>>>>> pagina_inicial
