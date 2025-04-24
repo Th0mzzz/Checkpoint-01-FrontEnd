@@ -1,0 +1,51 @@
+
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #C73659;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+  main {
+    margin: 30px auto;
+    max-width: 1000px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+   
+  }
+  
+  main h2 {
+    color: #78142a;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    margin-bottom: 20px;
+  }
+  
+  /* Rodapé */
+  /* footer{
+    text-align: center;
+    font-size: 5px;
+    padding: 15px;
+    background-color: #78142a;
+    color: #fff;
+    margin-top: 40px;
+    border-radius: 5px;
+
+  } */
+  
