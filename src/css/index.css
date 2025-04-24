@@ -33,8 +33,8 @@ img {
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .menu-navegacao{
@@ -58,8 +58,8 @@ img {
   }
 }
 .apresentacao {
-  font-family: Imperial Script;
-  font-size: 70px;
+  font-family: var(--fonte-texto-3);
+  font-size: 50px;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -69,9 +69,9 @@ img {
 header{
   position: fixed;
   top: 0;
+  width: 100%;
   color: var(--cor-fundo-2);
   background-color: var(--cor-principal);
-<<<<<<< HEAD
 }
 footer{
   width: 100%;
@@ -85,19 +85,30 @@ footer{
   width: 100%;
   height: 100%;
   display: flex;
-  font-family: NewsReader;
+  font-family: var(--fonte-texto-2);
 }
 
 .footer-bloco {
   flex: 1;
-  /* background-color: aqua; */
   padding: 5px 40px 5px 20px;
   margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* flex-start talvez? */
+  align-items: center;
   box-sizing: border-box;
+
+}
+
+.forms-button {
+  background-color: var(--cor-fundo-2);
+  color: var(--cor-texto);
+}
+
+.forms-button:hover {
+  background-color: var(--cor-principal);
+  color: var(--cor-fundo-2);
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-bloco textarea{
@@ -113,7 +124,7 @@ footer{
 }
 
 footer p{
-  font-family: Imperial Script;
+  font-family: var(--fonte-texto-3);
   font-size: 50px;
   padding: 5px 10px 5px 10px;
 }
@@ -167,9 +178,3 @@ footer .container{
   justify-content: center;
   align-items: flex-start;
 }
-=======
-  z-index: 1000;
-  width: 100%;
-}
-
->>>>>>> pagina_inicial
