@@ -8,8 +8,8 @@
   
   body {
     font-family: Arial,sans-serif;
-    background-color: #f8f6f4;
-    color: #333;
+    background-color: var(--cor-fundo);
+    color:var(--cor-texto);
   }
   
   
@@ -24,9 +24,10 @@
   }
   
   .categoria h2 {
-    font-size: 28px;
-    color: #800000;
+    font-size: 35px;
+    color: var(--cor-principal);
     margin-bottom: 20px;
+    
   }
   
   .produtos {
@@ -36,7 +37,7 @@
   }
   
   .produto {
-    background-color: white;
+    background-color: var(--cor-fundo);
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.5);
     padding: 15px;
@@ -69,8 +70,8 @@
   }
   
   button {
-    background-color: #800000;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo-2);
     border: none;
     padding: 10px 16px;
     border-radius: 5px;
@@ -80,6 +81,6 @@
   }
   
   button:hover {
-    background-color: #5e0000;
+    background-color: var(--cor-secundaria);
   }
   
