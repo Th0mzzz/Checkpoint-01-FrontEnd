@@ -1,70 +1,145 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <title>História da Vinheria</title>
-  <link rel="stylesheet" href="../css/historia.css">
-  <link rel="stylesheet" href="../css/index.css">
-</head>
-
-<body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vinheria Agnello - Vinhos de qualidade com preços acessíveis. Explore nossa seleção de vinhos recomendados e descubra o sabor do Brasil e do mundo."
+    />
+    <meta
+      name="keywords"
+      content="vinhos, vinheria, Agnello, produtos, história"
+    />
+    <title>Vinheria Agnello</title>
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/historia.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
   <header>
     <div class="apresentacao">
-      <img class="logo" alt="Logo Vinheria" src="/src/assets/imgs/logo.jpg">
+      <img class="logo" alt="Logo Vinheria" src="/src/assets/imgs/logo.jpg" />
       <p>Vinheria Agnello</p>
     </div>
     <nav class="menu-navegacao">
-      <a class="menu-item" href= "index.html">Home</a>
+      <a class="menu-item" href="/index.html">Home</a>
       <a class="menu-item" href="/src/pages/produtos.html">Produtos</a>
       <a class="menu-item" href="/src/pages/historia.html">Sobre Nós</a>
-      <a class="menu-item" href="#fale_conosco" class="botoes-navegacao">Fale Conosco</a>
+      <a class="menu-item" href="#fale_conosco" class="botoes-navegacao"
+        >Fale Conosco</a
+      >
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Tradição e Paixão pelo Vinho</h2>
-      <p>A Vinheria Agnello começou sua história há mais de 15 anos, na cidade de São Paulo, com o sonho do senhor
+  <body>
+    <main>
+    <section class="container_historia">
+      <h2 class="titulo_historia">Tradição e Paixão pelo Vinho</h2>
+      <p class="descritivo_historia">A Vinheria Agnello começou sua história há mais de 15 anos, na cidade de São Paulo, com o sonho do senhor
         Giulio: oferecer vinhos de qualidade e atendimento personalizado para todos os apaixonados por essa bebida.</p>
 
-      <p>Desde o início, a vinheria sempre se destacou pelo conhecimento profundo dos vinhos e pela atenção dedicada a
+      <p class="descritivo_historia">Desde o início, a vinheria sempre se destacou pelo conhecimento profundo dos vinhos e pela atenção dedicada a
         cada cliente. Giulio e sua equipe ajudavam os visitantes a escolher o rótulo ideal, levando em conta o paladar,
         a ocasião e o tipo de refeição.</p>
     </section>
 
-    <section>
-      <h2>Desafios e Transformação Digital</h2>
-      <p>Com a chegada da pandemia, as vendas caíram bastante, pois os clientes não podiam mais visitar a loja física.
+    <section class="container_historia">
+      <h2 class="titulo_historia">Desafios e Transformação Digital</h2>
+      <p class="descritivo_historia">Com a chegada da pandemia, as vendas caíram bastante, pois os clientes não podiam mais visitar a loja física.
         Muitos passaram a comprar online, e isso trouxe um grande desafio para a vinheria.</p>
 
-      <p>Inicialmente resistente à ideia de vender pela internet, Giulio foi convencido por sua filha Bianca de que era
+      <p class="descritivo_historia">Inicialmente resistente à ideia de vender pela internet, Giulio foi convencido por sua filha Bianca de que era
         hora de evoluir. Com o apoio dela, decidiram criar um site para alcançar novos clientes e manter viva a essência
         da vinheria: atendimento de qualidade e experiência única.</p>
     </section>
 
-    <section>
-      <h2>Um Novo Capítulo</h2>
-      <p>Hoje, a Vinheria Agnello começa uma nova fase, unindo tradição e tecnologia. O site foi pensado para transmitir
+    <section class="container_historia">
+      <h2 class="titulo_historia">Um Novo Capítulo</h2>
+      <p class="descritivo_historia">Hoje, a Vinheria Agnello começa uma nova fase, unindo tradição e tecnologia. O site foi pensado para transmitir
         a mesma atenção e carinho que os clientes recebem na loja física. Uma forma de mostrar que, mesmo no mundo
         digital, o vinho continua sendo uma arte que merece ser apreciada com calma, conhecimento e boa companhia.</p>
     </section>
 
-    <h3>Veja Mais: </h3>
-    <br>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/kBhbCyrdP-8?si=rOXbKEznRmqBXRQf"
+    <div class="video_recomendação">
+      <h3 class="titulo_historia">Conheça a história do Vinho e suas curiosidades</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kBhbCyrdP-8?si=rOXbKEznRmqBXRQf"
       title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
   </main>
 
-  <footer>
-    <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+  <footer id="fale_conosco">
+    <div class="container">
+      <div class="right">
+        <p>Entre em Contato</p>
+      </div>
+      <div class="left">
+        <img src="/src/assets/imgs/logo.jpg" alt="" class="logo" />
+      </div>
+    </div>
+
+    <form action="">
+      <div class="footer-container">
+        <div class="footer-bloco">
+          <div class="footer-inputs">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" />
+          </div>
+
+          <div class="footer-inputs">
+            <label for="empresa">Empresa:</label>
+            <input type="text" name="empresa" />
+          </div>
+
+          <div class="footer-inputs">
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" />
+          </div>
+
+          <div class="footer-inputs">
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" />
+          </div>
+        </div>
+
+        <div class="footer-bloco">
+          <div class="footer-inputs">
+            <label for="assunto">Assunto:</label>
+            <input type="text" name="assunto" />
+          </div>
+
+          <textarea name="mensagem" id="mensagem"></textarea>
+          <div>
+            <button class="forms-button" type="submit">Enviar</button>
+            <button class="forms-button" type="reset">Limpar</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div>
+      <div class="icon-container">
+        <img src="/src/assets/imgs/icon_facebook.png" alt="" class="icon" />
+        <img src="/src/assets/imgs/icon_instagram.png" alt="" class="icon" />
+        <img src="/src/assets/imgs/icon_twitter.png" alt="" class="icon" />
+      </div>
+      <p class="direitos-vinheria">&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+    </div>
   </footer>
-
 </body>
-
 </html>
+
+
