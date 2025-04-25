@@ -1,0 +1,57 @@
+h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.fale_conosco-container {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  height: 100%;
+  font-family: var(--fonte-texto-2);
+  background: var(--cor-fundo-2);
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+.fale_conosco-content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.fale-bloco {
+  flex: 1;
+  padding: 5px 40px 5px 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  box-sizing: border-box;
+}
+
+.forms-button {
+  background-color: var(--cor-principal);
+  color: var(--cor-fundo-2);
+  font-family: var(--fonte-texto-2);
+  margin-right: 15px;
+}
+
+.forms-button:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-fundo-2);
+  transition: all 0.3s ease-in-out;
+}
+
+.fale-bloco textarea {
+  height: 150px;
+  width: 300px;
+  resize: vertical;
+  padding: 10px;
+  margin: 10px;
+}
+
+.fale-input {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 10px;
+}

@@ -1,4 +1,9 @@
-
+#imagemFundo{
+  width: 100%;
+  margin-bottom: 2rem;
+  object-fit: cover;
+  height: 300px;
+}
 .container_historia {
   padding: 20px;
 }
