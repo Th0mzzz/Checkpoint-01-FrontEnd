@@ -1,4 +1,4 @@
-# Checkpoint-01-FrontEnd
+# Checkpoint-FrontEnd
 Checkpoint da turma ESPX1 para a matéria de Front-end na FIAP, aonde temos que fazer um site para a vinheria Agnello.
 
 Um protótipo de um site para resolver um problema fictício da "Vinheria Agnello"
@@ -25,6 +25,16 @@ Uma página com uma breve descrição sobre a história da Vinheria Agnello desd
 ### Fale Conosco
 A última página do site onde o cliente pode mandar uma messagem para a Vinheria Agnello, junto de seu nome, empresa, email, telefone e o assunto da mensagem, para que possíveis parceiros possam ter contato com a vinheria e o Sr.Giulio.
 
+## Efeitos Visuais
+
+### :focus
+Utilizado para destacar o input e textarea quando estão sendo utilizados na página Fale Conosco.
+
+### [type=email]:invalid
+Para mostrar ao usuário o input inválido do email na página Fale Conosco.
+
+### :hover
+Efeito utilizado para destacar o "button" enviar e limpar da página Fale Conosco.
 
 
 ## Tecnologias Utilizadas
