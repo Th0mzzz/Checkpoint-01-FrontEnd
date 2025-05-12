@@ -146,3 +146,5 @@ footer .container{
   justify-content: center;
   align-items: flex-start;
 }
+
+@import url('./efeitos.css');
