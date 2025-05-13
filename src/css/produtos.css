@@ -92,8 +92,14 @@
   margin-bottom: 10px;
   
  }
-    
 
+ h5 {
+  font-weight: normal;
+ }
+
+ h5::selection {
+  color: var(--cor-principal)
+ }
   
   
   
