@@ -20,11 +20,10 @@
 
 .grid_produtos {
   padding-top: 30px;
-  display: grid;
+  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  grid-template-columns: repeat(3, 350px);
-  grid-template-rows: repeat(2, 500px);
+  justify-content: space-between;
+  flex-direction: row;
   gap: 1rem;
 }
 
@@ -120,7 +119,9 @@
   height: 65px;
   background-color: var(--cor-fundo-2);
   border: none;
+  border-radius: 5px;
   margin: auto;
+  margin-bottom: 10px;
 }
 
 .ver_mais:hover {
