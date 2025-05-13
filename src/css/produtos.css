@@ -31,9 +31,12 @@
   }
   
   .produtos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  
   }
   
   .produto {
@@ -56,6 +59,8 @@
     object-fit: contain;
     margin-bottom: 10px;
     border-radius: 5px;
+    width: 300px;
+    height: 250px;
   }
   
   .produto h3 {
