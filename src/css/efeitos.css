@@ -1,5 +1,5 @@
 
-/* Pseudo-elementos com animação */
+/* Pseudo-elementos com animação -- funcionando */
 @keyframes estrelaPulsando {
   0% {
     transform: scale(1);
@@ -24,7 +24,7 @@
   animation: estrelaPulsando 1.6s infinite ease-in-out;
 }
 
-/* Animação do conteúdo */
+/* Animação do conteúdo -- funcionando */
 @keyframes animaUp {
   0% {
     opacity: 0;
@@ -36,12 +36,13 @@
   }
 }
 
+
 .container_historia {
   animation: animaUp 1.2s ease-in-out both;
   animation-delay: 0.2s;
 }
 
-/* Transformações na imagem */
+/* Transformações na imagem -- funcionando */
 #imagemFundo {
   transform: scale(1.02);
   transition: transform 0.5s ease-in-out;
@@ -51,7 +52,7 @@
   transform: scale(1.07);
 }
 
-/* Transições na pagina ;) */
+/* Transições na pagina ;) -- funcionando */
 .menu-item {
   transition: all 0.3s ease;
 }
