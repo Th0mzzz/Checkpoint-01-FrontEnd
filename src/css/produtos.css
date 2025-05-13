@@ -98,15 +98,15 @@
   
  }
 
- h5 {
+ .produto h5 {
   font-weight: normal;
  }
 
- h5::selection {
+ .produto h5::selection {
   color: var(--cor-principal)
  }
 
- h2 {
+ .categoria h2 {
   animation-duration: 3s;
   animation-name: efeitoCategoria;
   animation-iteration-count: initial;
