@@ -84,39 +84,14 @@
     font-weight: 600;
     font-family: var(--fonte-texto-2);
   }
-  
-  button:hover {
-    background-color: var(--cor-secundaria);
-  }
 
   button:hover {
     color:black
   }
-  
- input[type="checkbox"]:checked {
-  margin-bottom: 10px;
-  
- }
 
- h5 {
+ .produto h5 {
   font-weight: normal;
  }
 
- h5::selection {
-  color: var(--cor-principal)
- }
-
- h2 {
-  animation-duration: 3s;
-  animation-name: efeitoCategoria;
-  animation-iteration-count: initial;
- }
-
- @keyframes efeitoCategoria {
-  0% {opacity: 0};
-  100% {opacity: 1};
-
-  
- }
   
   

@@ -60,3 +60,31 @@
 .icon {
   transition: transform 0.3s ease;
 }
+/* Adicionado pseudo-classes na página produtos */
+
+button:hover {
+    color:black
+}
+
+input[type="checkbox"]:checked {
+    margin-bottom: 10px;    
+}
+
+/* Adicionado pseudo-elementos na página produtos */
+
+.produto h5::selection {
+    color: var(--cor-principal)
+   }
+
+/* Adicionado animação na página produtos */
+
+.categoria h2 {
+    animation-duration: 3s;
+    animation-name: efeitoCategoria;
+    animation-iteration-count: initial;
+   }
+  
+   @keyframes efeitoCategoria {
+    0% {opacity: 0};
+    100% {opacity: 1};
+   }
