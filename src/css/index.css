@@ -161,12 +161,7 @@ footer .container {
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: background 0.3s ease , transform .8s ease-in-out;
-  animation: infinite 3s chamarAtencao;
   & i {
     font-size: 2.5rem;
-  }
-  &:hover {
-    background: #4f8b5a;
   }
 }
