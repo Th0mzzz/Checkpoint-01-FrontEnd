@@ -19,6 +19,9 @@ h2 {
   padding: 2rem;
   margin-bottom: 3rem;
 }
+.container-fundo{
+  padding: 2rem;
+}
 .fale_conosco-content {
   display: flex;
   flex-flow: row wrap;
