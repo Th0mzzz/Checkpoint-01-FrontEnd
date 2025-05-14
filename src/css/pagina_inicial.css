@@ -19,13 +19,14 @@
 }
 
 .grid_produtos {
+  width: 80%;
+  margin: auto;
+  padding: 0 2rem;
   padding-top: 30px;
-  display: grid;
-  align-items: center;
-  justify-content: space-evenly;
-  grid-template-columns: repeat(3, 350px);
-  grid-template-rows: repeat(2, 500px);
-  gap: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1.6rem;
 }
 
 .estilizacao_produtos {
@@ -86,14 +87,14 @@
   background-color: var(--cor-fundo-2);
   color: var(--cor-texto);
   font-family: var(--fonte-texto);
-  height: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  overflow: hidden;
   border-radius: 5px;
   transition: all 0.2s;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 300px;
   & p {
     padding: 25px;
   }
@@ -105,7 +106,7 @@
   & img {
     width: 100%;
     object-fit: contain;
-    height: 200px;
+    max-height: 13rem;
   }
 }
 
@@ -116,11 +117,14 @@
 .ver_mais {
   font-family: var(--fonte-texto-2);
   font-size: 20px;
-  width: 90px;
-  height: 65px;
+  width: 120px;
+  height: 45px;
   background-color: var(--cor-fundo-2);
   border: none;
+  border-radius: 5px;
   margin: auto;
+  padding: 15px;
+
 }
 
 .ver_mais:hover {

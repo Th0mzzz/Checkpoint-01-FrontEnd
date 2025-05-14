@@ -19,6 +19,9 @@ h2 {
   padding: 2rem;
   margin-bottom: 3rem;
 }
+.container-fundo{
+  padding: 2rem;
+}
 .fale_conosco-content {
   display: flex;
   flex-flow: row wrap;
@@ -35,14 +38,15 @@ h2 {
   box-sizing: border-box;
 }
 
-.forms-button {
-  background-color: var(--cor-principal);
-  color: var(--cor-fundo-2);
+button {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
   font-family: var(--fonte-texto-2);
   margin-right: 15px;
+  padding: 2px;
 }
 
-.forms-button:hover {
+button:hover {
   background-color: var(--cor-secundaria);
   color: var(--cor-fundo-2);
   transition: all 0.3s ease-in-out;
@@ -61,3 +65,14 @@ h2 {
   flex-flow: column nowrap;
   margin: 10px;
 }
+
+input:focus, textarea:focus{
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
+}
+
+input[type=email]:invalid{
+  background-color: var(--cor-principal);
+  color: var(--cor-fundo);
+}
+

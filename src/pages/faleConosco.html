@@ -35,11 +35,13 @@
       </nav>
     </header>
     <main>
-      <img
-        id="imagemFundo"
-        src="../assets/imgs/faleconosco-fundo.jpg"
-        alt="imagem de fundo com vinhos"
-      />
+      <div class="container-fundo">
+        <img
+          id="imagemFundo"
+          src="../assets/imgs/faleconosco-fundo.jpg"
+          alt="imagem de fundo com vinhos"
+        />
+      </div>
       <form action="">
         <div class="fale_conosco-container">
           <h2>Entre em Contato</h2>
@@ -52,23 +54,23 @@
 
               <div class="fale-input">
                 <label for="empresa">Empresa:</label>
-                <input type="text" name="empresa" />
+                <input type="empresa" name="empresa" />
               </div>
 
               <div class="fale-input">
                 <label for="email">E-mail:</label>
-                <input type="text" name="email" />
+                <input type="email" name="email" />
               </div>
 
               <div class="fale-input">
                 <label for="telefone">Telefone:</label>
-                <input type="text" name="telefone" />
+                <input type="telefone" name="telefone" />
               </div>
             </div>
             <div class="fale-bloco">
               <div class="fale-input">
                 <label for="assunto">Assunto:</label>
-                <input type="text" name="assunto" />
+                <input type="assunto" name="assunto" />
               </div>
 
               <textarea name="mensagem" id="mensagem"></textarea>
@@ -81,7 +83,14 @@
         </div>
       </form>
     </main>
-
+    <a
+      href="https://api.whatsapp.com/send?phone=5511999999999&text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20produto."
+      target="_blank"
+      class="whatsapp-button"
+      title="Fale Conosco"
+    >
+      <i class="bi bi-whatsapp"></i>
+    </a>
     <footer id="fale_conosco">
       <div class="container">
         <div class="right">
