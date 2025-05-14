@@ -27,14 +27,7 @@ A última página do site onde o cliente pode mandar uma messagem para a Vinheri
 
 ## Efeitos Visuais
 
-### :focus
-Utilizado para destacar o input e textarea quando estão sendo utilizados na página Fale Conosco.
-
-### [type=email]:invalid
-Para mostrar ao usuário o input inválido do email na página Fale Conosco.
-
-### :hover
-Efeito utilizado para destacar o "button" enviar e limpar da página Fale Conosco.
+Utilizamos pseudo-elementos para destacar titulos, pseudo-classes para fazer interação com botões, cards, imagens, links, etc. Utilizamos animações para dar destaques a elementos (como o botão do whatsapp e adicionar interatividade com o usuário). E por fim, usamos as transições para tudo ter uma fluidez na troca de estilos.
 
 
 ## Tecnologias Utilizadas
